@@ -21,7 +21,7 @@ Net- DIAG (NAT network – all VMs isolated from internet)
 
 ```mermaid
 graph TD
-    Kali[Kali Linux - Attacker] --> NAT<img width="1152" height="844" alt="Active- DIR network" src="https://github.com/user-attachments/assets/60104da8-d6fc-4d25-a952-01031b04f067" />
+    Kali[Kali Linux - Attacker] --> NAT
 
     Win10[Windows 10 Client - Domain joined] --> NAT
     DC[Windows Server 2022 - DC + AD DS] --> NAT
