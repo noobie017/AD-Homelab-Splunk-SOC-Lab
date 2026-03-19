@@ -19,6 +19,10 @@ All VMs connected via NAT network. I ran password brute-force attacks from Kali,
 ### Lab Architecture
 Net- DIAG (NAT network – all VMs isolated from internet)
 
+
+
+<img width="1152" height="844" alt="Active- DIR network" src="https://github.com/user-attachments/assets/60104da8-d6fc-4d25-a952-01031b04f067" />
+
 ```mermaid
 graph TD
     Kali[Kali Linux - Attacker] --> NAT
